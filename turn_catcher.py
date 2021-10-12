@@ -1,4 +1,7 @@
 import math
+#import tkinter
+#import turtle
+
 
 print_ri_file="TSO6211_03.12.14_XY"
 f = open(print_ri_file,'r')
@@ -55,5 +58,3 @@ for line in f:
         print("d_d_angle=" + str(abs(d_d_angle)))
         print("time=" + str(time))
         print("h="+str(h))
-
-
